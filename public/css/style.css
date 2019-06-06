@@ -1,0 +1,64 @@
+.label-medium {
+  padding: 9px 10px;
+  font-size: 13px;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+}
+
+.sort__option {
+  display: inline;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #5cb85c;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.add-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.table>tbody>tr>td {
+  vertical-align: middle;
+}
+
+.add-item-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-item-form__action button:first-of-type {
+  margin-right: 8px;
+}
+
+.news__id {
+  width: 10%;
+  text-align: center;
+}
+
+.news__level {
+  width: 10%;
+  text-align: center;
+}
+
+.news__action {
+  width: 15%;
+  text-align: center;
+}
+
+.news__action button:first-of-type{
+  margin-right: 4px;
+}
